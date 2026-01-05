@@ -5,7 +5,7 @@ justify-content: space-between;
 flex-direction: row;
 
 }
-#headering{
+.headering{
 border: 2mm solid black ;
 border-radius: 10px;
 }
