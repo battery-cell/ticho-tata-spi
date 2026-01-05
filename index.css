@@ -1,0 +1,30 @@
+header{
+text-align: center;
+width: 50%;
+border: 2mm solid black ;
+border-radius: 10px;
+}
+
+body{
+background-color: gray;
+flex: auto;
+display: flex;
+justify-content: center;
+flex-direction: column;   
+}
+
+
+#srodek{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+#kawa{
+    width: 50%;
+}
+#text{
+    width: 50%  ;
+
+}
