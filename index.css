@@ -14,24 +14,28 @@ body{
 background-color: gray;
 flex: auto;
 display: flex;
-justify-content: center;
 flex-direction: column;   
 }
 
 
 #srodek{
 display: flex;
-flex-direction: row;
-justify-content: space-between;
+justify-content: space-around;
 
 }
 
 #kawa{
-    width: 50%;
+    border: 2mm solid black ;
+    border-radius: 10px;
+    text-align: center;
 
 }
 
 #text{
     width: 50%  ;
-
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+    font-size: 110%;
+    border: 2mm solid black ;
+    border-radius: 10px;
 }
