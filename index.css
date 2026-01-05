@@ -1,6 +1,11 @@
 header{
+display: flex;
 text-align: center;
-width: 50%;
+justify-content: space-between;
+flex-direction: row;
+
+}
+#headering{
 border: 2mm solid black ;
 border-radius: 10px;
 }
@@ -23,7 +28,9 @@ justify-content: space-between;
 
 #kawa{
     width: 50%;
+
 }
+
 #text{
     width: 50%  ;
 
