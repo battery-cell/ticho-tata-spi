@@ -13,6 +13,16 @@ body{
     flex-direction: column;   
 }
 
+body.dark {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark header {
+    border-color: white;
+}
+
+
 #srodek{
     display: flex;
     flex-direction: row;
